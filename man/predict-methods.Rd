@@ -5,14 +5,16 @@
 \alias{predict,apk-method}
 \title{Prediction Method for the apk Class}
 \usage{
+predict(object, ...)
+
 \S4method{predict}{apk}(object, bar, ...)
 }
 \arguments{
 \item{object}{An object to predict from.}
 
-\item{bar}{Not used yet.}
-
 \item{...}{Further arguments for methods.}
+
+\item{bar}{Not used yet.}
 }
 \description{
 Prediction Method for the apk Class
