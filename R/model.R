@@ -21,9 +21,7 @@ apk <- function(foo, ...) {
 #' @exportMethod predict
 #' @param object An object to predict from.
 #' @param ... Further arguments for methods.
-if (!isGeneric("predict")) {
-  setGeneric(name = "predict", def = function(object, ...) standardGeneric("predict"))
-}
+setGeneric(name = "predict", def = function(object, ...) standardGeneric("predict"))
 
 
 predict.apk <- function(object, bar,  ...) {
